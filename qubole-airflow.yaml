@@ -1,0 +1,5 @@
+steps:
+  requirements: requirement.txt
+  scripts: "ls"
+  sync-directory:
+    dags: "test_airflow/dags"
