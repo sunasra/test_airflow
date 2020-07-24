@@ -1,5 +1,5 @@
 steps:
-  requirements: requirement.txt
+  requirements: requirements.txt
   scripts:
        - "ls"
   sync-directory:
