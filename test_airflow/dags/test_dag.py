@@ -13,6 +13,6 @@ default_args = {
 
 }
 
-dag = DAG(dag_id='test', default_args=default_args, schedule_interval='@once')
+dag = DAG(dag_id='qubole-cicd-example', default_args=default_args, schedule_interval='@once')
 
     
